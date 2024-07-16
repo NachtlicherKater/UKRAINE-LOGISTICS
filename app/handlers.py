@@ -8,7 +8,7 @@ router = Router()
 
 @router.message(CommandStart())
 async def cmd_start(message: Message):
-    await message.answer('Hi bitch!',reply_markup=kb.main)
+    await message.answer('Hi bitch!')
 
 @router.message(F.photo)
 async def get_photo(message: Message):
