@@ -2,4 +2,3 @@ aiogram
 aiohttp
 magic-filter
 asyncio
-sys
