@@ -1,4 +1,5 @@
 import asyncio
+const port = process.env.PORT || 4000;
 
 from aiogram import Bot, Dispatcher
 from app.handlers import router
