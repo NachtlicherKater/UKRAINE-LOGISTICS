@@ -26,3 +26,7 @@ async def photo_profile(message: Message):
 @router.message(F.text == '1')
 async def shto(message: Message):
     await message.answer('2')
+
+@router.message(F.text == 'Можно как-то случайно выгнать кого-то?')
+async def shto(message: Message):
+    await message.answer('Да нет конечно, я сам в ахуе...')
