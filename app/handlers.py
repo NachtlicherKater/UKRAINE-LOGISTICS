@@ -40,7 +40,7 @@ async def photo_profile(message: Message):
 async def photo_profile(message: Message):
     await message.answer('ㅤ', reply_markup=kb.pravila)
 
-@router.message(Command('убрать_кнопки'))
+@router.message(Command('buttons'))
 async def photo_profile(message: Message):
     await message.answer('КнОпАчЕк БолЬше НеТ :(', reply_markup=kb.remove)
 
