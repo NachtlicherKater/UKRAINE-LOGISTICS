@@ -71,11 +71,11 @@ glava3 = InlineKeyboardMarkup(inline_keyboard= [
 
 
 menu = InlineKeyboardMarkup(inline_keyboard= [
-    [InlineKeyboardButton(text='ㅤПерейти до Дiскорд-сервераㅤ', url='https://discord.gg/6QKSNrqaxh')],
-    [InlineKeyboardButton(text='ㅤВступити до ВТКㅤ', url='https://truckersmp.com/vtc/72664')],
-    [InlineKeyboardButton(text='ㅤЗв`язок із Адміністрацієюㅤ', callback_data='report')],
+    [InlineKeyboardButton(text='Перейти до Дiскорд-сервера', url='https://discord.gg/6QKSNrqaxh')],
+    [InlineKeyboardButton(text='Вступити до ВТК', url='https://truckersmp.com/vtc/72664')],
+    [InlineKeyboardButton(text='Зв`язок із Адміністрацією', callback_data='report')],
     [InlineKeyboardButton(text='ㅤ', callback_data='nothing')],
-    [InlineKeyboardButton(text='ㅤ↑↑↑ Перейти до правил ↑↑↑ㅤ', callback_data='pravila')]
+    [InlineKeyboardButton(text='ㅤㅤㅤ⠀⠀⠀↑↑↑ Перейти до правил ↑↑↑⠀⠀ㅤㅤ⠀ㅤ', callback_data='pravila')]
 
 ])
 
