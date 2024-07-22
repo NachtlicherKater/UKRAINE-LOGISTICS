@@ -226,9 +226,9 @@ async def nothing(callback: CallbackQuery):
 
 
 
-
-
-
+@router.message(F.text == 'что такое втк')
+async def shto(message: Message):
+    await message.answer('2')
 
 
 @router.message(F.text == '1')
