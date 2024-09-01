@@ -61,7 +61,7 @@ async def menu(callback: CallbackQuery):
 @router.callback_query(F.data == 'rp')
 async def rp(callback: CallbackQuery):
     await callback.answer()
-    await callback.message.edit_text('-Під терміном: «Привілейовані учасники серверу» мається на увазі ті учасники, які мають привілеї згідно з §1.5 пунктом правил.\nТобто: Голова серверу / Адміністрація / Модерація тощо.\n \n-Усі згадування текстових чатів у розділах правил, розповсюджується також і на групу Telegram.' , reply_markup=kb.vernis3)
+    await callback.message.edit_text('-Під терміном: «Привілейовані учасники серверу» мається на увазі ті учасники, які мають привілеї згідно з §1.5 пунктом правил.\nТобто: Голова серверу / Адміністрація / Модерація тощо.\n \n-Усі згадування текстових чатів у розділах правил, розповсюджується також на групу Telegram та iгровий чат.' , reply_markup=kb.vernis3)
 
 @router.callback_query(F.data == 'pravila')
 async def pravila(callback: CallbackQuery):
@@ -86,7 +86,7 @@ async def glava1(callback: CallbackQuery):
     @router.callback_query(F.data == 'r13')
     async def r13(callback: CallbackQuery):
         await callback.answer()
-        await callback.message.edit_text('§1.3  На цьому сервері немає жодних утисків, жорстких заборон(в межах розумного) або дискримінації інших національностей та/або мов. \nОсновна мова спілкування в голосовому або текстовому чаті - Українська, але ніхто не забороняє Вам використовувати будь-яку іншу мову, якщо більшість учасників Discord-серверу не проти її використання.',reply_markup=kb.vernis1)
+        await callback.message.edit_text('§1.3  На цьому сервері немає жодних утисків, жорстких заборон(в межах розумного) або дискримінації інших національностей та/або мов. \nОсновна мова спілкування в голосовому або текстовому чаті - Українська, але ніхто не забороняє Вам використовувати будь-яку іншу мову, якщо більшість учасників компанії не проти її використання.',reply_markup=kb.vernis1)
 
     @router.callback_query(F.data == 'r14')
     async def r14(callback: CallbackQuery):
@@ -101,17 +101,17 @@ async def glava1(callback: CallbackQuery):
     @router.callback_query(F.data == 'r16')
     async def r16(callback: CallbackQuery):
         await callback.answer()
-        await callback.message.edit_text('§1.6  Учасник сервера, який запросив нового співробітника до групи у Телеграмi, зобов`язаний представити його всім у компанії "UKRAINE-LOGISTICS".',reply_markup=kb.vernis1)
+        await callback.message.edit_text('§1.6  Ставтеся до інших так само, як і до себе. Будь-який прояв неадекватної поведінки НЕПРИПУСТИМИЙ і буде каратися на розсуд Адміністрації, аж до виключення учасника з компанії.',reply_markup=kb.vernis1)
 
     @router.callback_query(F.data == 'r17')
     async def r17(callback: CallbackQuery):
         await callback.answer()
-        await callback.message.edit_text('§1.7  Новоприбулий учасник повинен привітати інших, назвати своє ім`я, вписати нікнейм у дискорді аналогічний ігровому та ознайомитися із розділом правил.',reply_markup=kb.vernis1)
+        await callback.message.edit_text('§1.7  Новоприбулий учасник повинен вписати нікнейм у Дискорді аналогічний ігровому та ознайомитися із розділом правил.',reply_markup=kb.vernis1)
 
     @router.callback_query(F.data == 'r18')
     async def r18(callback: CallbackQuery):
         await callback.answer()
-        await callback.message.edit_text('§1.8  Ставтеся до інших співробітників компанії так само, як і до себе. Заборонено навмисно заважати проїзду, підрізати, блокувати дорогу та будь-яким чином порушувати правила TruckersMP стосовно інших учасників дорожнього руху, та також своєї компанії.',reply_markup=kb.vernis1)
+        await callback.message.edit_text('§1.8  Заборонено навмисно заважати проїзду, підрізати, блокувати дорогу та будь-яким чином порушувати правила TruckersMP стосовно інших учасників дорожнього руху, та також своєї компанії.',reply_markup=kb.vernis1)
 
 @router.callback_query(F.data == 'glava2')
 async def glava2(callback: CallbackQuery):
